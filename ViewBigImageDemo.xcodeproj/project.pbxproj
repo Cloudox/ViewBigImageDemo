@@ -15,6 +15,8 @@
 		B8940BF91D65D29800A64773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8940BF71D65D29800A64773 /* LaunchScreen.storyboard */; };
 		B8940C041D65D29800A64773 /* ViewBigImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8940C031D65D29800A64773 /* ViewBigImageDemoTests.m */; };
 		B8940C0F1D65D29800A64773 /* ViewBigImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8940C0E1D65D29800A64773 /* ViewBigImageDemoUITests.m */; };
+		B8940C1D1D65D32700A64773 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8940C1C1D65D32700A64773 /* icon.png */; };
+		B8940C1F1D65F09400A64773 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8940C1E1D65F09400A64773 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B8940C0A1D65D29800A64773 /* ViewBigImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewBigImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8940C0E1D65D29800A64773 /* ViewBigImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBigImageDemoUITests.m; sourceTree = "<group>"; };
 		B8940C101D65D29800A64773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8940C1C1D65D32700A64773 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B8940C1E1D65F09400A64773 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				B8940C021D65D29800A64773 /* ViewBigImageDemoTests */,
 				B8940C0D1D65D29800A64773 /* ViewBigImageDemoUITests */,
 				B8940BE71D65D29800A64773 /* Products */,
+				B8940C1E1D65F09400A64773 /* demo.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +111,7 @@
 				B8940BEF1D65D29800A64773 /* ViewController.h */,
 				B8940BF01D65D29800A64773 /* ViewController.m */,
 				B8940BF21D65D29800A64773 /* Main.storyboard */,
+				B8940C1C1D65D32700A64773 /* icon.png */,
 				B8940BF51D65D29800A64773 /* Assets.xcassets */,
 				B8940BF71D65D29800A64773 /* LaunchScreen.storyboard */,
 				B8940BFA1D65D29800A64773 /* Info.plist */,
@@ -243,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8940C1D1D65D32700A64773 /* icon.png in Resources */,
 				B8940BF91D65D29800A64773 /* LaunchScreen.storyboard in Resources */,
+				B8940C1F1D65F09400A64773 /* demo.gif in Resources */,
 				B8940BF61D65D29800A64773 /* Assets.xcassets in Resources */,
 				B8940BF41D65D29800A64773 /* Main.storyboard in Resources */,
 			);
